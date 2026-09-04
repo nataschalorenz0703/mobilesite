@@ -1,0 +1,98 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** fonts *********************/
+@font-face {
+  font-family: "jurassic_parkregular";
+  src:
+    url("./fonts/jurassic_park.woff2") format("woff2"),
+    url("./fonts/jurassic_park.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*************** farver *********************/
+
+color1 {
+  color: rgb(67, 71, 145);
+}
+/*************** andet css *********************/
+head {
+  background-color: rgb(25, 98, 121);
+}
+h1 {
+  color: rgb(162, 18, 18);
+  font-family: "jurassic_parkregular";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding: 0.5rem;
+}
+p {
+  color: rgb(86, 49, 9);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 1rem;
+}
+
+body {
+  background-color: rgb(255, 230, 184);
+}
+
+h2 {
+  color: rgb(224, 64, 0);
+  margin-top: 3rem;
+  padding: 0 1rem;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 2rem;
+}
+footer {
+  color: rgb(255, 222, 145);
+  background-color: rgb(160, 45, 0);
+}
+
+dl {
+  color: rgb(86, 49, 9);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 1rem;
+}
+header {
+  background-color: rgb(160, 45, 0);
+}
+header nav ul li a {
+  color: rgb(255, 215, 145);
+}
+
+.stats-box {
+  background-color: #eb8d5f;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 5rem;
+}
+
+.stats-box dd .stat-number {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #2e2c2c;
+}
+
+.special-link {
+  padding: 0.9rem;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  color: rgb(134, 2, 2);
+  padding: 0.5rem;
+}
